@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+/* Barra lateral */
+
+.icon_aside
+{
+  margin-top: 35px;
+  text-align: center;
+  font-size: 19px;
+}
+.bar-hamburger
+{
+    margin-top:20px ;
+   
+}
+
+.icon_aside p
+{
+ font-size: 11px;
+ margin-top: 5px;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+
+.Logo
+{
+    margin-left: -30px;
+}
+
+/* Barra de navegacion */
+
+.Bar_navegacion
+{
+   
+     width: 400px;
+     font-size: 17px;
+     padding-left:10px ;
+     height: 40px;
+     border-radius: 25px 0 0 25px;
+     margin-right: 50px;
+     border: 1px solid #aaa;
+
+}
+
+.Lupa
+{
+    position: relative;
+    left: -35px;
+    bottom: -1px;
+    width: 65px;
+    height: 40px;
+    left:-80px ;
+    border: 1px solid #aaa;
+    border-radius: 0 25px 25px 0;
+    background-color: #eee;
+   
+}
+
+.microfono
+{
+    position: relative;
+    left: -70px;
+    font-size: 17px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.usuario
+{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.icon-usuario
+{
+    font-size: 18px;
+
+}
+
+.letra-usuario
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(51, 51, 252);
+    color: #fff;
+}
+
+/* categorias */
+
+.btn-categoria
+{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin: 0 8px;
+    background-color: #eee;
+    color: #333;
+}
+
+.flecha
+{
+    margin-left: 30px;
+}
+
+/* main */
+
+.fila
+{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 1fr 1fr;
+    
+    margin-top: 20px;
+}
+.celda
+{
+    width: 240px;
+    font-size: 15px;
+    margin-bottom: 50px;
+   
+    
+}
+
+.video img
+{
+  width:280px;
+}
+
+.foto-de-perfil img
+{
+    width: 40px;
+}
+
+.descripcion{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
